@@ -1,4 +1,4 @@
-import { GitHubLogoIcon } from '@radix-ui/react-icons';
+import { MagnifyingGlassIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
 
 import { buttonVariants } from '@/components/ui/buttonVariants';
@@ -18,7 +18,7 @@ export const CTA = () => {
             className={buttonVariants({ variant: 'outline', size: 'lg' })}
             href="/dashboard"
           >
-            <GitHubLogoIcon className="mr-2 size-5" />
+            <MagnifyingGlassIcon className="mr-2 size-5" />
             {t('button_text')}
           </a>
         )}

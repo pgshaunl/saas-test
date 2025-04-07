@@ -1,4 +1,4 @@
-import { GitHubLogoIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
+import { MagnifyingGlassIcon, TwitterLogoIcon } from '@radix-ui/react-icons';
 import { useTranslations } from 'next-intl';
 
 import { badgeVariants } from '@/components/ui/badgeVariants';
@@ -45,7 +45,7 @@ export const Hero = () => {
               className={buttonVariants({ variant: 'outline', size: 'lg' })}
               href="/dashboard"
             >
-              <GitHubLogoIcon className="mr-2 size-5" />
+              <MagnifyingGlassIcon className="mr-3 size-5" />
               {t('secondary_button')}
             </a>
           </>
