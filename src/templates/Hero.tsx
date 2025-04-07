@@ -15,7 +15,7 @@ export const Hero = () => {
         banner={(
           <a
             className={badgeVariants()}
-            href="https://twitter.com/ixartz"
+            href="https://twitter.com/GroundAI"
             target="_blank"
             rel="noopener noreferrer"
           >
