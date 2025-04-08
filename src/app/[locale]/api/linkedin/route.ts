@@ -1,3 +1,5 @@
+export const runtime = 'edge';
+
 // import { scrapeLinkedinSearch } from '@/utils/scraper';
 
 // export async function GET(request: NextRequest) {
