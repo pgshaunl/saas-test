@@ -84,7 +84,9 @@ export async function GET(req: Request) {
   }
 
   try {
-    const lixRes = await fetch(`https://api.lix-it.com/v1/li/linkedin/search/people?url=${url}`, {
+    const lixUrl = `https://api.lix-it.com/v1/li/linkedin/search/people?url=${encodeURIComponent(url)}`;
+
+    const lixRes = await fetch(lixUrl, {
       method: 'GET',
       headers: {
         Authorization: 'Fcvz0Wu48SZV09yPRmWU7rQAf8c8A2Ymjw6ZcChMNaELbpHKu7QoKOnzU08o',
